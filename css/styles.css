@@ -7,15 +7,15 @@ html {
 /* Redimensión de fuente utilizando rem */
 
 p {
-    font-size: 1rem;
+    font-size: 8px;
     color: white;
     text-align: center;
 }
 
 h1 {
-    font-size: 3rem;
-    color: white;
+    font-size: 30px;
     text-align: center;
+    color: white;
 }
 
 h2 {
@@ -47,12 +47,13 @@ h6 {
 * {
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
-    background-color: black;
 }
 
 body {
     margin: 0;
     height: 100vh;
+    width: 100vw;
+    background-color: black;
 }
 
 
@@ -69,7 +70,7 @@ body {
 
 .column-1 {
     width: 100%;
-    float: left;
+    height: 100%;
 }
 
 .column-2 {
@@ -105,6 +106,17 @@ body {
 
 /* Otras clases */
 
+.color-submit {
+    background-color: orange;
+    border-radius: 7px;
+}
+
+.styles-div {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 3%;
+}
+
 input,
 select {
     width: 100%;
@@ -112,8 +124,32 @@ select {
     margin: 5px;
 }
 
-#texto {
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.botones {
+    width: 48%;
+}
+
+#resultado {
     text-align: center;
+    color: red;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    height: 10vh;
+}
+
+a {
     color: white;
 }
 
@@ -122,17 +158,11 @@ select {
 }
 
 #verde {
-    text-align: center;
     color: greenyellow;
 }
 
-#footer {
-    background-color: black;
-    text-align: center;
-}
-
-a {
-    color: white;
+#calculando {
+    font-size: 20px;
 }
 
 
@@ -142,6 +172,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 90vh;
 }
 
 @media only screen and (max-width: 600px) {

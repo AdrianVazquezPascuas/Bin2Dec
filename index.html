@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bin2Dec</title>
+    <title>Bin2Dec-App</title>
     <link rel="stylesheet" href="./css/styles.css">
     <script src="./js/main.js"></script>
 </head>
@@ -13,15 +13,13 @@
 <body class="flex">
     <div class="row">
         <div class="column-1">
-            <h1>Bin2Dec App</h1>
-        </div>
-        <div>
-            <p id="texto">Enter a <a class="binari">binari number</a>, get a <a class="binari">decimal</a> con
+            <div>
+                <h1>Bin2Dec App</h1>
+                <p id="texto">Enter a <a class="binari">binari number</a>, get a <a class="binari">decimal</a> conversion</p>
                 <p id="verde">Here is your decimal!</p>
-                <h6 id="frase"></h6>
-        </div>
-        <div class="column-1">
-            <input type="number" id="numerobi" onkeyup="decimal()">
+                <input type="number" id="numero" value="" onkeyup="parrafos()">
+                <p id="calculando"></p>
+            </div>
         </div>
         <div class="column-1" id="footer">
             <p>Made by: <a href="https://github.com/AdrianVazquezPascuas">@AdrianVazquezPascuas</p>
