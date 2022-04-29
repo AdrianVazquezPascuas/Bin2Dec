@@ -1,4 +1,4 @@
-function parrafos() {
+function decimal() {
     var infonum = document.getElementById('infonum')
 
     var infonum2 = document.getElementById('infonum2')
