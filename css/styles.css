@@ -158,11 +158,15 @@ a {
 }
 
 #verde {
-    color: greenyellow;
+    background-color: rgba(172, 255, 47, 0.251);
 }
 
 #calculando {
     font-size: 20px;
+}
+
+#p {
+    color: greenyellow;
 }
 
 
