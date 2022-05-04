@@ -46,7 +46,7 @@ h6 {
 
 * {
     box-sizing: border-box;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 body {
@@ -140,10 +140,10 @@ input[type=number] {
 
 #resultado {
     text-align: center;
-    color: red;
+    color: rgb(255, 255, 255);
 }
 
-footer {
+#footer {
     color: white;
     text-align: center;
     height: 10vh;

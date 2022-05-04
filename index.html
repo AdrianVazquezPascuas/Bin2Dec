@@ -15,14 +15,27 @@
         <div class="column-1">
             <div>
                 <h1>Bin2Dec App</h1>
-                <p id="texto">Enter a <a class="binari">binari number</a>, get a <a class="binari">decimal</a> conversion</p>
-                <p id="verde">Here is your decimal!</p>
-                <input type="number" id="numero" value="" onkeyup="decimal()">
-                <p id="calculando"></p>
-            </div>
-        </div>
-        <div class="column-1" id="footer">
-            <p>Made by: <a href="https://github.com/AdrianVazquezPascuas">@AdrianVazquezPascuas</p>
+                <p>Enter a binary number, get a decimal conversion.</p>
+                <p class="rojo" id="text1"></p>
+                <p class="verde" id="text2"></p>
+                <div class="form-row">
+                    <div class="field">
+                        <label>
+                        <input type="number" id="number" value="" onkeyup="calcular()">
+                        <p id="bin"></p>
+                    
+                      </label>
+                        <div>
+                            <select class="selector" name="" id="selector">
+                        <option value="bin">Bin2Dec</option>
+                        <option value="hex">Dec2Hex</option>
+                      </select>
+                        </div>
+                        <p class="resultado" id="resultado"></p>
+                    </div>
+                </div>
+                <div class="column-1" id="footer">
+                    <p>Made by: <a href="https://github.com/AdrianVazquezPascuas">@AdrianVazquezPascuas</p>
         </div>
 
 </body>
